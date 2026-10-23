@@ -28,57 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            btnJogar = new Button();
+            btnTema = new Button();
+            btnSair = new Button();
+            btnCreditos = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnJogar
             // 
-            button1.Location = new Point(581, 182);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnJogar.FlatStyle = FlatStyle.Flat;
+            btnJogar.Location = new Point(545, 136);
+            btnJogar.Name = "btnJogar";
+            btnJogar.Size = new Size(138, 44);
+            btnJogar.TabIndex = 0;
+            btnJogar.Text = "Jogar";
+            btnJogar.UseVisualStyleBackColor = true;
+            btnJogar.Click += btnJogar_Click;
             // 
-            // button2
+            // btnTema
             // 
-            button2.Location = new Point(608, 244);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnTema.FlatStyle = FlatStyle.Flat;
+            btnTema.Location = new Point(559, 200);
+            btnTema.Name = "btnTema";
+            btnTema.Size = new Size(138, 44);
+            btnTema.TabIndex = 1;
+            btnTema.Text = "Tema";
+            btnTema.UseVisualStyleBackColor = true;
+            btnTema.Click += btnTema_Click;
             // 
-            // button3
+            // btnSair
             // 
-            button3.Location = new Point(608, 290);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnSair.FlatStyle = FlatStyle.Flat;
+            btnSair.Location = new Point(559, 264);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(138, 44);
+            btnSair.TabIndex = 2;
+            btnSair.Text = "Sair";
+            btnSair.UseVisualStyleBackColor = true;
+            btnSair.Click += btnSair_Click;
             // 
-            // button4
+            // btnCreditos
             // 
-            button4.Location = new Point(608, 341);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 3;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnCreditos.FlatStyle = FlatStyle.Flat;
+            btnCreditos.Location = new Point(569, 331);
+            btnCreditos.Name = "btnCreditos";
+            btnCreditos.Size = new Size(128, 44);
+            btnCreditos.TabIndex = 3;
+            btnCreditos.Text = "Créditos";
+            btnCreditos.UseVisualStyleBackColor = true;
+            btnCreditos.Click += btnCreditos_Click;
             // 
             // TelaInicial
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnCreditos);
+            Controls.Add(btnSair);
+            Controls.Add(btnTema);
+            Controls.Add(btnJogar);
             Name = "TelaInicial";
             Text = "TelaInicial";
             Load += TelaInicial_Load;
@@ -87,9 +95,9 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
+        private Button btnJogar;
+        private Button btnTema;
+        private Button btnSair;
+        private Button btnCreditos;
     }
 }
