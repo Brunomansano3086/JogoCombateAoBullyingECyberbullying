@@ -13,6 +13,7 @@ namespace JogoCombateAoBullyingECyberbullying
         public TelaInicial()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
 
             btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
@@ -50,7 +51,9 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnJogar_Click(object sender, EventArgs e)
         {
-
+            Pontuacao.Zerar();
+            new Cena1_WhatsApp().Show();
+            this.Hide();
         }
 
         private void btnTema_Click(object sender, EventArgs e)

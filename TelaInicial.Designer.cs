@@ -38,10 +38,9 @@
             // btnJogar
             // 
             btnJogar.FlatStyle = FlatStyle.Flat;
-            btnJogar.Location = new Point(633, 266);
-            btnJogar.Margin = new Padding(3, 4, 3, 4);
+            btnJogar.Location = new Point(554, 200);
             btnJogar.Name = "btnJogar";
-            btnJogar.Size = new Size(250, 58);
+            btnJogar.Size = new Size(219, 44);
             btnJogar.TabIndex = 0;
             btnJogar.Text = "Jogar";
             btnJogar.UseVisualStyleBackColor = true;
@@ -50,10 +49,9 @@
             // btnTema
             // 
             btnTema.FlatStyle = FlatStyle.Flat;
-            btnTema.Location = new Point(633, 341);
-            btnTema.Margin = new Padding(3, 4, 3, 4);
+            btnTema.Location = new Point(554, 256);
             btnTema.Name = "btnTema";
-            btnTema.Size = new Size(250, 53);
+            btnTema.Size = new Size(219, 40);
             btnTema.TabIndex = 1;
             btnTema.Text = "Tema";
             btnTema.UseVisualStyleBackColor = true;
@@ -62,10 +60,9 @@
             // btnSair
             // 
             btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.Location = new Point(633, 483);
-            btnSair.Margin = new Padding(3, 4, 3, 4);
+            btnSair.Location = new Point(554, 362);
             btnSair.Name = "btnSair";
-            btnSair.Size = new Size(250, 54);
+            btnSair.Size = new Size(219, 40);
             btnSair.TabIndex = 2;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = true;
@@ -74,10 +71,9 @@
             // btnCreditos
             // 
             btnCreditos.FlatStyle = FlatStyle.Flat;
-            btnCreditos.Location = new Point(633, 410);
-            btnCreditos.Margin = new Padding(3, 4, 3, 4);
+            btnCreditos.Location = new Point(554, 308);
             btnCreditos.Name = "btnCreditos";
-            btnCreditos.Size = new Size(250, 59);
+            btnCreditos.Size = new Size(219, 44);
             btnCreditos.TabIndex = 3;
             btnCreditos.Text = "Créditos";
             btnCreditos.UseVisualStyleBackColor = true;
@@ -85,17 +81,17 @@
             // 
             // TelaInicial
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(800, 450);
             Controls.Add(btnCreditos);
             Controls.Add(btnSair);
             Controls.Add(btnTema);
             Controls.Add(btnJogar);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "TelaInicial";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TelaInicial";
             Load += TelaInicial_Load;
             ResumeLayout(false);

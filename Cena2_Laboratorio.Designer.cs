@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Cena2_Laboratorio";
+            SuspendLayout();
+            // 
+            // Cena2_Laboratorio
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "Cena2_Laboratorio";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Cena2_Laboratorio";
+            ResumeLayout(false);
         }
 
         #endregion

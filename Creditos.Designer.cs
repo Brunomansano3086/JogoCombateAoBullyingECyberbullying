@@ -40,6 +40,7 @@
             ClientSize = new Size(700, 338);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Creditos";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Creditos";
             ResumeLayout(false);
         }

@@ -33,13 +33,15 @@
             // 
             // Cena3_Refeitorio
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             DoubleBuffered = true;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Cena3_Refeitorio";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena3_Refeitorio";
             ResumeLayout(false);
         }
