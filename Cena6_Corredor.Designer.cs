@@ -29,7 +29,37 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cena6_Corredor));
+            btnCena6A = new Button();
+            btnCena6B = new Button();
+            btnCena6C = new Button();
             SuspendLayout();
+            // 
+            // btnCena6A
+            // 
+            btnCena6A.Location = new Point(476, 98);
+            btnCena6A.Name = "btnCena6A";
+            btnCena6A.Size = new Size(75, 23);
+            btnCena6A.TabIndex = 0;
+            btnCena6A.Text = "A";
+            btnCena6A.UseVisualStyleBackColor = true;
+            // 
+            // btnCena6B
+            // 
+            btnCena6B.Location = new Point(381, 184);
+            btnCena6B.Name = "btnCena6B";
+            btnCena6B.Size = new Size(75, 23);
+            btnCena6B.TabIndex = 1;
+            btnCena6B.Text = "B";
+            btnCena6B.UseVisualStyleBackColor = true;
+            // 
+            // btnCena6C
+            // 
+            btnCena6C.Location = new Point(381, 258);
+            btnCena6C.Name = "btnCena6C";
+            btnCena6C.Size = new Size(75, 23);
+            btnCena6C.TabIndex = 2;
+            btnCena6C.Text = "C";
+            btnCena6C.UseVisualStyleBackColor = true;
             // 
             // Cena6_Corredor
             // 
@@ -38,6 +68,9 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(700, 338);
+            Controls.Add(btnCena6C);
+            Controls.Add(btnCena6B);
+            Controls.Add(btnCena6A);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Cena6_Corredor";
             StartPosition = FormStartPosition.CenterScreen;
@@ -46,5 +79,9 @@
         }
 
         #endregion
+
+        private Button btnCena6A;
+        private Button btnCena6B;
+        private Button btnCena6C;
     }
 }

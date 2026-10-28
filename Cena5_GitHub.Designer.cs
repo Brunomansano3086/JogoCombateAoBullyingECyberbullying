@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnCena5A = new Button();
+            btnCena5B = new Button();
+            btnCena5C = new Button();
             SuspendLayout();
+            // 
+            // btnCena5A
+            // 
+            btnCena5A.Location = new Point(417, 80);
+            btnCena5A.Name = "btnCena5A";
+            btnCena5A.Size = new Size(75, 23);
+            btnCena5A.TabIndex = 0;
+            btnCena5A.Text = "A";
+            btnCena5A.UseVisualStyleBackColor = true;
+            // 
+            // btnCena5B
+            // 
+            btnCena5B.Location = new Point(331, 209);
+            btnCena5B.Name = "btnCena5B";
+            btnCena5B.Size = new Size(75, 23);
+            btnCena5B.TabIndex = 1;
+            btnCena5B.Text = "B";
+            btnCena5B.UseVisualStyleBackColor = true;
+            // 
+            // btnCena5C
+            // 
+            btnCena5C.Location = new Point(438, 263);
+            btnCena5C.Name = "btnCena5C";
+            btnCena5C.Size = new Size(75, 23);
+            btnCena5C.TabIndex = 2;
+            btnCena5C.Text = "C";
+            btnCena5C.UseVisualStyleBackColor = true;
             // 
             // Cena5_GitHub
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCena5C);
+            Controls.Add(btnCena5B);
+            Controls.Add(btnCena5A);
             Name = "Cena5_GitHub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena5_GitHub";
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private Button btnCena5A;
+        private Button btnCena5B;
+        private Button btnCena5C;
     }
 }

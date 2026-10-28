@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnCena2A = new Button();
+            btnCena2B = new Button();
+            btnCena2C = new Button();
             SuspendLayout();
+            // 
+            // btnCena2A
+            // 
+            btnCena2A.Location = new Point(406, 56);
+            btnCena2A.Name = "btnCena2A";
+            btnCena2A.Size = new Size(75, 23);
+            btnCena2A.TabIndex = 0;
+            btnCena2A.Text = "A";
+            btnCena2A.UseVisualStyleBackColor = true;
+            // 
+            // btnCena2B
+            // 
+            btnCena2B.Location = new Point(363, 214);
+            btnCena2B.Name = "btnCena2B";
+            btnCena2B.Size = new Size(75, 23);
+            btnCena2B.TabIndex = 1;
+            btnCena2B.Text = "B";
+            btnCena2B.UseVisualStyleBackColor = true;
+            // 
+            // btnCena2C
+            // 
+            btnCena2C.Location = new Point(455, 309);
+            btnCena2C.Name = "btnCena2C";
+            btnCena2C.Size = new Size(75, 23);
+            btnCena2C.TabIndex = 2;
+            btnCena2C.Text = "C";
+            btnCena2C.UseVisualStyleBackColor = true;
             // 
             // Cena2_Laboratorio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCena2C);
+            Controls.Add(btnCena2B);
+            Controls.Add(btnCena2A);
             Name = "Cena2_Laboratorio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena2_Laboratorio";
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private Button btnCena2A;
+        private Button btnCena2B;
+        private Button btnCena2C;
     }
 }

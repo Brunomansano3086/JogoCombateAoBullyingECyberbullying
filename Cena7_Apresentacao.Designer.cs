@@ -28,13 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnCena7A = new Button();
+            btnCena7B = new Button();
+            btnCena7C = new Button();
             SuspendLayout();
+            // 
+            // btnCena7A
+            // 
+            btnCena7A.Location = new Point(509, 81);
+            btnCena7A.Name = "btnCena7A";
+            btnCena7A.Size = new Size(75, 23);
+            btnCena7A.TabIndex = 0;
+            btnCena7A.Text = "A";
+            btnCena7A.UseVisualStyleBackColor = true;
+            // 
+            // btnCena7B
+            // 
+            btnCena7B.Location = new Point(509, 175);
+            btnCena7B.Name = "btnCena7B";
+            btnCena7B.Size = new Size(75, 23);
+            btnCena7B.TabIndex = 1;
+            btnCena7B.Text = "B";
+            btnCena7B.UseVisualStyleBackColor = true;
+            // 
+            // btnCena7C
+            // 
+            btnCena7C.Location = new Point(500, 258);
+            btnCena7C.Name = "btnCena7C";
+            btnCena7C.Size = new Size(75, 23);
+            btnCena7C.TabIndex = 2;
+            btnCena7C.Text = "C";
+            btnCena7C.UseVisualStyleBackColor = true;
             // 
             // Cena7_Apresentacao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCena7C);
+            Controls.Add(btnCena7B);
+            Controls.Add(btnCena7A);
             Name = "Cena7_Apresentacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena7_Apresentacao";
@@ -42,5 +75,9 @@
         }
 
         #endregion
+
+        private Button btnCena7A;
+        private Button btnCena7B;
+        private Button btnCena7C;
     }
 }
