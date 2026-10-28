@@ -41,6 +41,7 @@
             btnCena4A.TabIndex = 0;
             btnCena4A.Text = "A";
             btnCena4A.UseVisualStyleBackColor = true;
+            btnCena4A.Click += btnCena4A_Click;
             // 
             // btnCena4B
             // 
@@ -50,6 +51,7 @@
             btnCena4B.TabIndex = 1;
             btnCena4B.Text = "B";
             btnCena4B.UseVisualStyleBackColor = true;
+            btnCena4B.Click += btnCena4B_Click;
             // 
             // btnCena4C
             // 
@@ -59,6 +61,7 @@
             btnCena4C.TabIndex = 2;
             btnCena4C.Text = "C";
             btnCena4C.UseVisualStyleBackColor = true;
+            btnCena4C.Click += btnCena4C_Click;
             // 
             // Cena4_Discord
             // 

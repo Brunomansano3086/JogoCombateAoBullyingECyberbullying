@@ -41,6 +41,7 @@
             btnCena10A.TabIndex = 0;
             btnCena10A.Text = "A";
             btnCena10A.UseVisualStyleBackColor = true;
+            btnCena10A.Click += btnCena10A_Click;
             // 
             // btnCena10B
             // 
@@ -50,6 +51,7 @@
             btnCena10B.TabIndex = 1;
             btnCena10B.Text = "B";
             btnCena10B.UseVisualStyleBackColor = true;
+            btnCena10B.Click += btnCena10B_Click;
             // 
             // btnCena10C
             // 
@@ -59,6 +61,7 @@
             btnCena10C.TabIndex = 2;
             btnCena10C.Text = "C";
             btnCena10C.UseVisualStyleBackColor = true;
+            btnCena10C.Click += btnCena10C_Click;
             // 
             // Cena10_Estacionamento
             // 

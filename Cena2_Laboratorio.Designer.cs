@@ -41,6 +41,7 @@
             btnCena2A.TabIndex = 0;
             btnCena2A.Text = "A";
             btnCena2A.UseVisualStyleBackColor = true;
+            btnCena2A.Click += btnCena2A_Click;
             // 
             // btnCena2B
             // 
@@ -50,6 +51,7 @@
             btnCena2B.TabIndex = 1;
             btnCena2B.Text = "B";
             btnCena2B.UseVisualStyleBackColor = true;
+            btnCena2B.Click += btnCena2B_Click;
             // 
             // btnCena2C
             // 
@@ -59,6 +61,7 @@
             btnCena2C.TabIndex = 2;
             btnCena2C.Text = "C";
             btnCena2C.UseVisualStyleBackColor = true;
+            btnCena2C.Click += btnCena2C_Click;
             // 
             // Cena2_Laboratorio
             // 

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnCena1A = new Button();
-            btnCena2B = new Button();
+            btnCena1B = new Button();
             btnCena1C = new Button();
             SuspendLayout();
             // 
@@ -41,15 +41,17 @@
             btnCena1A.TabIndex = 0;
             btnCena1A.Text = "A";
             btnCena1A.UseVisualStyleBackColor = true;
+            btnCena1A.Click += btnCena1A_Click;
             // 
-            // btnCena2B
+            // btnCena1B
             // 
-            btnCena2B.Location = new Point(427, 119);
-            btnCena2B.Name = "btnCena2B";
-            btnCena2B.Size = new Size(75, 23);
-            btnCena2B.TabIndex = 1;
-            btnCena2B.Text = "B";
-            btnCena2B.UseVisualStyleBackColor = true;
+            btnCena1B.Location = new Point(427, 119);
+            btnCena1B.Name = "btnCena1B";
+            btnCena1B.Size = new Size(75, 23);
+            btnCena1B.TabIndex = 1;
+            btnCena1B.Text = "B";
+            btnCena1B.UseVisualStyleBackColor = true;
+            btnCena1B.Click += btnCena1B_Click;
             // 
             // btnCena1C
             // 
@@ -59,6 +61,7 @@
             btnCena1C.TabIndex = 2;
             btnCena1C.Text = "C";
             btnCena1C.UseVisualStyleBackColor = true;
+            btnCena1C.Click += btnCena1C_Click;
             // 
             // Cena1_WhatsApp
             // 
@@ -66,7 +69,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena1C);
-            Controls.Add(btnCena2B);
+            Controls.Add(btnCena1B);
             Controls.Add(btnCena1A);
             Name = "Cena1_WhatsApp";
             StartPosition = FormStartPosition.CenterScreen;
@@ -77,7 +80,7 @@
         #endregion
 
         private Button btnCena1A;
-        private Button btnCena2B;
+        private Button btnCena1B;
         private Button btnCena1C;
     }
 }

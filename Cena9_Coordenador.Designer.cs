@@ -41,6 +41,7 @@
             btnCena9A.TabIndex = 0;
             btnCena9A.Text = "A";
             btnCena9A.UseVisualStyleBackColor = true;
+            btnCena9A.Click += btnCena9A_Click;
             // 
             // btnCena9B
             // 
@@ -50,6 +51,7 @@
             btnCena9B.TabIndex = 1;
             btnCena9B.Text = "B";
             btnCena9B.UseVisualStyleBackColor = true;
+            btnCena9B.Click += btnCena9B_Click;
             // 
             // btnCena9C
             // 
@@ -59,6 +61,7 @@
             btnCena9C.TabIndex = 2;
             btnCena9C.Text = "C";
             btnCena9C.UseVisualStyleBackColor = true;
+            btnCena9C.Click += btnCena9C_Click;
             // 
             // Cena9_Coordenador
             // 

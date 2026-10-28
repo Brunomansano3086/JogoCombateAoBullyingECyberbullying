@@ -41,6 +41,7 @@
             btnCena7A.TabIndex = 0;
             btnCena7A.Text = "A";
             btnCena7A.UseVisualStyleBackColor = true;
+            btnCena7A.Click += btnCena7A_Click;
             // 
             // btnCena7B
             // 
@@ -50,6 +51,7 @@
             btnCena7B.TabIndex = 1;
             btnCena7B.Text = "B";
             btnCena7B.UseVisualStyleBackColor = true;
+            btnCena7B.Click += btnCena7B_Click;
             // 
             // btnCena7C
             // 
@@ -59,6 +61,7 @@
             btnCena7C.TabIndex = 2;
             btnCena7C.Text = "C";
             btnCena7C.UseVisualStyleBackColor = true;
+            btnCena7C.Click += btnCena7C_Click;
             // 
             // Cena7_Apresentacao
             // 

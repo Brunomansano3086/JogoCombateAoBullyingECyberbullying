@@ -41,6 +41,7 @@
             btnCena8A.TabIndex = 0;
             btnCena8A.Text = "A";
             btnCena8A.UseVisualStyleBackColor = true;
+            btnCena8A.Click += btnCena8A_Click;
             // 
             // btnCena8B
             // 
@@ -50,6 +51,7 @@
             btnCena8B.TabIndex = 1;
             btnCena8B.Text = "B";
             btnCena8B.UseVisualStyleBackColor = true;
+            btnCena8B.Click += btnCena8B_Click;
             // 
             // btnCena8C
             // 
@@ -59,6 +61,7 @@
             btnCena8C.TabIndex = 2;
             btnCena8C.Text = "C";
             btnCena8C.UseVisualStyleBackColor = true;
+            btnCena8C.Click += btnCena8C_Click;
             // 
             // Cena8_Banheiro
             // 

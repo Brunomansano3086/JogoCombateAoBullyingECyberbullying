@@ -14,5 +14,20 @@ namespace JogoCombateAoBullyingECyberbullying
         {
             InitializeComponent();
         }
+
+        private void btnCena6A_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCena6B_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCena6C_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,6 +42,7 @@
             btnCena3A.TabIndex = 0;
             btnCena3A.Text = "A";
             btnCena3A.UseVisualStyleBackColor = true;
+            btnCena3A.Click += btnCena3A_Click;
             // 
             // btnCena3B
             // 
@@ -51,6 +52,7 @@
             btnCena3B.TabIndex = 1;
             btnCena3B.Text = "B";
             btnCena3B.UseVisualStyleBackColor = true;
+            btnCena3B.Click += btnCena3B_Click;
             // 
             // btnCena3C
             // 
@@ -60,6 +62,7 @@
             btnCena3C.TabIndex = 2;
             btnCena3C.Text = "C";
             btnCena3C.UseVisualStyleBackColor = true;
+            btnCena3C.Click += btnCena3C_Click;
             // 
             // Cena3_Refeitorio
             // 

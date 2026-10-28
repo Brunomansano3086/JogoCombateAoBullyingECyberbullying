@@ -41,6 +41,7 @@
             btnCena5A.TabIndex = 0;
             btnCena5A.Text = "A";
             btnCena5A.UseVisualStyleBackColor = true;
+            btnCena5A.Click += btnCena5A_Click;
             // 
             // btnCena5B
             // 
@@ -50,6 +51,7 @@
             btnCena5B.TabIndex = 1;
             btnCena5B.Text = "B";
             btnCena5B.UseVisualStyleBackColor = true;
+            btnCena5B.Click += btnCena5B_Click;
             // 
             // btnCena5C
             // 
@@ -59,6 +61,7 @@
             btnCena5C.TabIndex = 2;
             btnCena5C.Text = "C";
             btnCena5C.UseVisualStyleBackColor = true;
+            btnCena5C.Click += btnCena5C_Click;
             // 
             // Cena5_GitHub
             // 

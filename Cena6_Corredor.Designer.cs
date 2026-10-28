@@ -42,6 +42,7 @@
             btnCena6A.TabIndex = 0;
             btnCena6A.Text = "A";
             btnCena6A.UseVisualStyleBackColor = true;
+            btnCena6A.Click += btnCena6A_Click;
             // 
             // btnCena6B
             // 
@@ -51,6 +52,7 @@
             btnCena6B.TabIndex = 1;
             btnCena6B.Text = "B";
             btnCena6B.UseVisualStyleBackColor = true;
+            btnCena6B.Click += btnCena6B_Click;
             // 
             // btnCena6C
             // 
@@ -60,6 +62,7 @@
             btnCena6C.TabIndex = 2;
             btnCena6C.Text = "C";
             btnCena6C.UseVisualStyleBackColor = true;
+            btnCena6C.Click += btnCena6C_Click;
             // 
             // Cena6_Corredor
             // 
