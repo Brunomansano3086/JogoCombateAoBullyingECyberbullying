@@ -17,7 +17,8 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnProximo_Click(object sender, EventArgs e)
         {
-
+            new Cena3_Refeitorio().Show();
+            this.Close();
         }
     }
 }
