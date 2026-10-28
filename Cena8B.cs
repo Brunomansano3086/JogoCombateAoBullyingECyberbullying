@@ -14,5 +14,10 @@ namespace JogoCombateAoBullyingECyberbullying
         {
             InitializeComponent();
         }
+
+        private void btnProximo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

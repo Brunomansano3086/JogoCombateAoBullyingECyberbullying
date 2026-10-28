@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnProximo = new Button();
             SuspendLayout();
+            // 
+            // btnProximo
+            // 
+            btnProximo.Location = new Point(363, 214);
+            btnProximo.Name = "btnProximo";
+            btnProximo.Size = new Size(75, 23);
+            btnProximo.TabIndex = 1;
+            btnProximo.Text = "Próximo";
+            btnProximo.UseVisualStyleBackColor = true;
+            btnProximo.Click += btnProximo_Click;
             // 
             // Cena8B
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnProximo);
             Name = "Cena8B";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena8B";
@@ -42,5 +54,7 @@
         }
 
         #endregion
+
+        private Button btnProximo;
     }
 }
