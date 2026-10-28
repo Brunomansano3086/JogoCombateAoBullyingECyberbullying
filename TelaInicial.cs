@@ -14,19 +14,31 @@ namespace JogoCombateAoBullyingECyberbullying
         {
             InitializeComponent();
 
+            btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
+            btnJogar.FlatStyle = FlatStyle.Flat;
             btnJogar.BackColor = Color.Transparent;
+            btnJogar.FlatAppearance.BorderSize = 0; // <--- REMOVE A BORDA RETANGULAR
             btnJogar.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnJogar.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
 
+            btnTema.Text = "";
+            btnTema.FlatStyle = FlatStyle.Flat;
             btnTema.BackColor = Color.Transparent;
+            btnTema.FlatAppearance.BorderSize = 0;
             btnTema.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnTema.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
 
+            btnSair.Text = "";
+            btnSair.FlatStyle = FlatStyle.Flat;
             btnSair.BackColor = Color.Transparent;
+            btnSair.FlatAppearance.BorderSize = 0;
             btnSair.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnSair.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
 
+            btnCreditos.Text = "";
+            btnCreditos.FlatStyle = FlatStyle.Flat;
             btnCreditos.BackColor = Color.Transparent;
+            btnCreditos.FlatAppearance.BorderSize = 0;
             btnCreditos.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnCreditos.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
