@@ -34,9 +34,10 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(161, 16);
+            btnVoltar.Location = new Point(22, 13);
+            btnVoltar.Margin = new Padding(3, 4, 3, 4);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(75, 23);
+            btnVoltar.Size = new Size(116, 35);
             btnVoltar.TabIndex = 0;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
@@ -44,13 +45,12 @@
             // 
             // ExplicacaoBullying
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(800, 451);
             Controls.Add(btnVoltar);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ExplicacaoBullying";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ExplicacaoBullying";

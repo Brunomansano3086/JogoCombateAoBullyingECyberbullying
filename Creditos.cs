@@ -13,6 +13,14 @@ namespace JogoCombateAoBullyingECyberbullying
         public Creditos()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            btnVoltar.Text = "";
+            btnVoltar.FlatStyle = FlatStyle.Flat;
+            btnVoltar.BackColor = Color.Transparent;
+            btnVoltar.FlatAppearance.BorderSize = 0;
+            btnVoltar.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnVoltar.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
