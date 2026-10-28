@@ -2,38 +2,38 @@
 {
     public enum TipoResposta
     {
+        PosturaAtiva,
         Omissao,
-        Participacao,
-        Correto
+        Cumplicidade
     }
 
     public static class Pontuacao
     {
+        public static int PosturaAtiva { get; private set; }
         public static int Omissao { get; private set; }
-        public static int Participacao { get; private set; }
-        public static int Correto { get; private set; }
+        public static int Cumplicidade { get; private set; }
 
         public static void Adicionar(TipoResposta tipo)
         {
             switch (tipo)
             {
+                case TipoResposta.PosturaAtiva:
+                    PosturaAtiva++;
+                    break;
                 case TipoResposta.Omissao:
                     Omissao++;
                     break;
-                case TipoResposta.Participacao:
-                    Participacao++;
-                    break;
-                case TipoResposta.Correto:
-                    Correto++;
+                case TipoResposta.Cumplicidade:
+                    Cumplicidade++;
                     break;
             }
         }
 
         public static void Zerar()
         {
+            PosturaAtiva = 0;
             Omissao = 0;
-            Participacao = 0;
-            Correto = 0;
+            Cumplicidade = 0;
         }
     }
 }
