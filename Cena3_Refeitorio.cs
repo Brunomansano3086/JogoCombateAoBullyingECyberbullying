@@ -17,17 +17,23 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnCena3A_Click(object sender, EventArgs e)
         {
-
+            Pontuacao.Adicionar(TipoResposta.PosturaAtiva);
+            new Cena3A().Show();
+            this.Close();
         }
 
         private void btnCena3B_Click(object sender, EventArgs e)
         {
-
+            Pontuacao.Adicionar(TipoResposta.Cumplicidade);
+            new Cena3B().Show();
+            this.Close();
         }
 
         private void btnCena3C_Click(object sender, EventArgs e)
         {
-
+            Pontuacao.Adicionar(TipoResposta.Omissao);
+            new Cena3C().Show();
+            this.Close();
         }
     }
 }
