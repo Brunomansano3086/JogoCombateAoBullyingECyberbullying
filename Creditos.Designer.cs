@@ -29,7 +29,18 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Creditos));
+            btnVoltar = new Button();
             SuspendLayout();
+            // 
+            // btnVoltar
+            // 
+            btnVoltar.Location = new Point(309, 42);
+            btnVoltar.Name = "btnVoltar";
+            btnVoltar.Size = new Size(102, 35);
+            btnVoltar.TabIndex = 0;
+            btnVoltar.Text = "Voltar";
+            btnVoltar.UseVisualStyleBackColor = true;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // Creditos
             // 
@@ -38,6 +49,7 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(700, 338);
+            Controls.Add(btnVoltar);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Creditos";
             StartPosition = FormStartPosition.CenterScreen;
@@ -46,5 +58,7 @@
         }
 
         #endregion
+
+        private Button btnVoltar;
     }
 }

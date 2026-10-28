@@ -58,7 +58,9 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnTema_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new ExplicacaoBullying().ShowDialog();
+            this.Show();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -68,7 +70,9 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnCreditos_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            new Creditos().ShowDialog();
+            this.Show();
         }
     }
 }
