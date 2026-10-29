@@ -67,10 +67,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Apresentação_3_opções;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena7C);
             Controls.Add(btnCena7B);
             Controls.Add(btnCena7A);
+            DoubleBuffered = true;
             Name = "Cena7_Apresentacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena7_Apresentacao";

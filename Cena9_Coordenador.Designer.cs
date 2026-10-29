@@ -67,10 +67,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Coordenador_3_opções;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena9C);
             Controls.Add(btnCena9B);
             Controls.Add(btnCena9A);
+            DoubleBuffered = true;
             Name = "Cena9_Coordenador";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena9_Coordenador";

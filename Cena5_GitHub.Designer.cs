@@ -67,10 +67,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.GitHub_3_opções;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena5C);
             Controls.Add(btnCena5B);
             Controls.Add(btnCena5A);
+            DoubleBuffered = true;
             Name = "Cena5_GitHub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena5_GitHub";
