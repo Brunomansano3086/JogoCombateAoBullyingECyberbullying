@@ -33,7 +33,7 @@
             // 
             // btnComecarJogo
             // 
-            btnComecarJogo.Location = new Point(557, 175);
+            btnComecarJogo.Location = new Point(457, 415);
             btnComecarJogo.Name = "btnComecarJogo";
             btnComecarJogo.Size = new Size(175, 23);
             btnComecarJogo.TabIndex = 0;
@@ -45,6 +45,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.CenaPreJogo1;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnComecarJogo);
             Name = "CenaPreJogo";

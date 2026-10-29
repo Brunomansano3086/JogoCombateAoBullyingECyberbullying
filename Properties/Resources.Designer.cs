@@ -59,5 +59,25 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CenaPreJogo {
+            get {
+                object obj = ResourceManager.GetObject("CenaPreJogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CenaPreJogo1 {
+            get {
+                object obj = ResourceManager.GetObject("CenaPreJogo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -13,6 +13,13 @@ namespace JogoCombateAoBullyingECyberbullying
         public CenaPreJogo()
         {
             InitializeComponent();
+
+            btnComecarJogo.Text = "";
+            btnComecarJogo.FlatStyle = FlatStyle.Flat;
+            btnComecarJogo.BackColor = Color.Transparent;
+            btnComecarJogo.FlatAppearance.BorderSize = 0;
+            btnComecarJogo.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnComecarJogo.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnComecarJogo_Click(object sender, EventArgs e)
