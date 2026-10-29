@@ -52,7 +52,7 @@ namespace JogoCombateAoBullyingECyberbullying
         private void btnJogar_Click(object sender, EventArgs e)
         {
             Pontuacao.Zerar();
-            new Cena1_WhatsApp().Show();
+            new CenaPreJogo().Show();
             this.Hide();
         }
 
