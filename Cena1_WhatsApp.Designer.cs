@@ -35,7 +35,7 @@
             // 
             // btnCena1A
             // 
-            btnCena1A.Location = new Point(427, 75);
+            btnCena1A.Location = new Point(643, 105);
             btnCena1A.Name = "btnCena1A";
             btnCena1A.Size = new Size(75, 23);
             btnCena1A.TabIndex = 0;
@@ -45,7 +45,7 @@
             // 
             // btnCena1B
             // 
-            btnCena1B.Location = new Point(427, 119);
+            btnCena1B.Location = new Point(652, 208);
             btnCena1B.Name = "btnCena1B";
             btnCena1B.Size = new Size(75, 23);
             btnCena1B.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnCena1C
             // 
-            btnCena1C.Location = new Point(427, 176);
+            btnCena1C.Location = new Point(652, 322);
             btnCena1C.Name = "btnCena1C";
             btnCena1C.Size = new Size(75, 23);
             btnCena1C.TabIndex = 2;
@@ -67,10 +67,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.WhatsApp_3_opções;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena1C);
             Controls.Add(btnCena1B);
             Controls.Add(btnCena1A);
+            DoubleBuffered = true;
             Name = "Cena1_WhatsApp";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena1_WhatsApp";

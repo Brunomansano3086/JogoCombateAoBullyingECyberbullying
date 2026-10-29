@@ -67,10 +67,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Estacionamento_3_opções;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCena10C);
             Controls.Add(btnCena10B);
             Controls.Add(btnCena10A);
+            DoubleBuffered = true;
             Name = "Cena10_Estacionamento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena10_Estacionamento";
