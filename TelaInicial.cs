@@ -19,7 +19,7 @@ namespace JogoCombateAoBullyingECyberbullying
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            musicaFundo = new SoundPlayer("MusicaFundo.wav");
+            //musicaFundo = new SoundPlayer("MusicaFundo.wav");
 
             btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
@@ -52,7 +52,7 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-            musicaFundo.PlayLooping();
+            //musicaFundo.PlayLooping();
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
