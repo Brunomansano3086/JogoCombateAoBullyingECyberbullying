@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            btnVoltarTelaInicial = new Button();
             SuspendLayout();
+            // 
+            // btnVoltarTelaInicial
+            // 
+            btnVoltarTelaInicial.Location = new Point(394, 99);
+            btnVoltarTelaInicial.Name = "btnVoltarTelaInicial";
+            btnVoltarTelaInicial.Size = new Size(207, 43);
+            btnVoltarTelaInicial.TabIndex = 0;
+            btnVoltarTelaInicial.Text = "Voltar p tela inicial";
+            btnVoltarTelaInicial.UseVisualStyleBackColor = true;
+            btnVoltarTelaInicial.Click += btnVoltarTelaInicial_Click;
             // 
             // FinalBom
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnVoltarTelaInicial);
             Name = "FinalBom";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalBom";
@@ -42,5 +54,7 @@
         }
 
         #endregion
+
+        private Button btnVoltarTelaInicial;
     }
 }
