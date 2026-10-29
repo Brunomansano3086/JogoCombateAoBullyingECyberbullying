@@ -13,6 +13,27 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena8_Banheiro()
         {
             InitializeComponent();
+
+            btnCena8A.Text = "";
+            btnCena8A.FlatStyle = FlatStyle.Flat;
+            btnCena8A.BackColor = Color.Transparent;
+            btnCena8A.FlatAppearance.BorderSize = 0;
+            btnCena8A.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena8A.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena8B.Text = "";
+            btnCena8B.FlatStyle = FlatStyle.Flat;
+            btnCena8B.BackColor = Color.Transparent;
+            btnCena8B.FlatAppearance.BorderSize = 0;
+            btnCena8B.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena8B.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena8C.Text = "";
+            btnCena8C.FlatStyle = FlatStyle.Flat;
+            btnCena8C.BackColor = Color.Transparent;
+            btnCena8C.FlatAppearance.BorderSize = 0;
+            btnCena8C.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena8C.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnCena8A_Click(object sender, EventArgs e)

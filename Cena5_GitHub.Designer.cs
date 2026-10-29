@@ -35,9 +35,9 @@
             // 
             // btnCena5A
             // 
-            btnCena5A.Location = new Point(417, 80);
+            btnCena5A.Location = new Point(562, 161);
             btnCena5A.Name = "btnCena5A";
-            btnCena5A.Size = new Size(75, 23);
+            btnCena5A.Size = new Size(247, 61);
             btnCena5A.TabIndex = 0;
             btnCena5A.Text = "A";
             btnCena5A.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // btnCena5B
             // 
-            btnCena5B.Location = new Point(331, 209);
+            btnCena5B.Location = new Point(562, 228);
             btnCena5B.Name = "btnCena5B";
-            btnCena5B.Size = new Size(75, 23);
+            btnCena5B.Size = new Size(247, 65);
             btnCena5B.TabIndex = 1;
             btnCena5B.Text = "B";
             btnCena5B.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // btnCena5C
             // 
-            btnCena5C.Location = new Point(438, 263);
+            btnCena5C.Location = new Point(562, 296);
             btnCena5C.Name = "btnCena5C";
-            btnCena5C.Size = new Size(75, 23);
+            btnCena5C.Size = new Size(247, 73);
             btnCena5C.TabIndex = 2;
             btnCena5C.Text = "C";
             btnCena5C.UseVisualStyleBackColor = true;
@@ -69,7 +69,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.GitHub_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(816, 450);
             Controls.Add(btnCena5C);
             Controls.Add(btnCena5B);
             Controls.Add(btnCena5A);

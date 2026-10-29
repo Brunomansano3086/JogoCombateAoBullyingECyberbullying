@@ -36,9 +36,9 @@
             // 
             // btnCena3A
             // 
-            btnCena3A.Location = new Point(493, 61);
+            btnCena3A.Location = new Point(440, 144);
             btnCena3A.Name = "btnCena3A";
-            btnCena3A.Size = new Size(75, 23);
+            btnCena3A.Size = new Size(248, 46);
             btnCena3A.TabIndex = 0;
             btnCena3A.Text = "A";
             btnCena3A.UseVisualStyleBackColor = true;
@@ -46,9 +46,9 @@
             // 
             // btnCena3B
             // 
-            btnCena3B.Location = new Point(313, 158);
+            btnCena3B.Location = new Point(440, 194);
             btnCena3B.Name = "btnCena3B";
-            btnCena3B.Size = new Size(75, 23);
+            btnCena3B.Size = new Size(248, 47);
             btnCena3B.TabIndex = 1;
             btnCena3B.Text = "B";
             btnCena3B.UseVisualStyleBackColor = true;
@@ -56,9 +56,9 @@
             // 
             // btnCena3C
             // 
-            btnCena3C.Location = new Point(326, 241);
+            btnCena3C.Location = new Point(440, 247);
             btnCena3C.Name = "btnCena3C";
-            btnCena3C.Size = new Size(75, 23);
+            btnCena3C.Size = new Size(248, 48);
             btnCena3C.TabIndex = 2;
             btnCena3C.Text = "C";
             btnCena3C.UseVisualStyleBackColor = true;

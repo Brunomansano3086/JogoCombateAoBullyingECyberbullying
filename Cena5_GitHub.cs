@@ -13,6 +13,27 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena5_GitHub()
         {
             InitializeComponent();
+
+            btnCena5A.Text = "";
+            btnCena5A.FlatStyle = FlatStyle.Flat;
+            btnCena5A.BackColor = Color.Transparent;
+            btnCena5A.FlatAppearance.BorderSize = 0;
+            btnCena5A.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena5A.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena5B.Text = "";
+            btnCena5B.FlatStyle = FlatStyle.Flat;
+            btnCena5B.BackColor = Color.Transparent;
+            btnCena5B.FlatAppearance.BorderSize = 0;
+            btnCena5B.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena5B.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena5C.Text = "";
+            btnCena5C.FlatStyle = FlatStyle.Flat;
+            btnCena5C.BackColor = Color.Transparent;
+            btnCena5C.FlatAppearance.BorderSize = 0;
+            btnCena5C.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena5C.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnCena5A_Click(object sender, EventArgs e)

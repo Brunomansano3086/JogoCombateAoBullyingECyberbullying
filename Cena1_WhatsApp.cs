@@ -13,6 +13,27 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena1_WhatsApp()
         {
             InitializeComponent();
+
+            btnCena1A.Text = "";
+            btnCena1A.FlatStyle = FlatStyle.Flat;
+            btnCena1A.BackColor = Color.Transparent;
+            btnCena1A.FlatAppearance.BorderSize = 0;
+            btnCena1A.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena1A.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena1B.Text = "";
+            btnCena1B.FlatStyle = FlatStyle.Flat;
+            btnCena1B.BackColor = Color.Transparent;
+            btnCena1B.FlatAppearance.BorderSize = 0;
+            btnCena1B.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena1B.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena1C.Text = "";
+            btnCena1C.FlatStyle = FlatStyle.Flat;
+            btnCena1C.BackColor = Color.Transparent;
+            btnCena1C.FlatAppearance.BorderSize = 0;
+            btnCena1C.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena1C.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnCena1A_Click(object sender, EventArgs e)

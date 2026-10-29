@@ -13,6 +13,27 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena10_Estacionamento()
         {
             InitializeComponent();
+
+            btnCena10A.Text = "";
+            btnCena10A.FlatStyle = FlatStyle.Flat;
+            btnCena10A.BackColor = Color.Transparent;
+            btnCena10A.FlatAppearance.BorderSize = 0;
+            btnCena10A.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena10A.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena10B.Text = "";
+            btnCena10B.FlatStyle = FlatStyle.Flat;
+            btnCena10B.BackColor = Color.Transparent;
+            btnCena10B.FlatAppearance.BorderSize = 0;
+            btnCena10B.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena10B.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
+
+            btnCena10C.Text = "";
+            btnCena10C.FlatStyle = FlatStyle.Flat;
+            btnCena10C.BackColor = Color.Transparent;
+            btnCena10C.FlatAppearance.BorderSize = 0;
+            btnCena10C.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnCena10C.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnCena10A_Click(object sender, EventArgs e)
