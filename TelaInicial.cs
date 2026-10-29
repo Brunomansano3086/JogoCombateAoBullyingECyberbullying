@@ -5,15 +5,21 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Media;
+
 
 namespace JogoCombateAoBullyingECyberbullying
 {
     public partial class TelaInicial : Form
     {
+
+        private SoundPlayer musicaFundo;
         public TelaInicial()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+
+            musicaFundo = new SoundPlayer("MusicaFundo.wav");
 
             btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
@@ -46,7 +52,7 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-
+            musicaFundo.PlayLooping();
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
