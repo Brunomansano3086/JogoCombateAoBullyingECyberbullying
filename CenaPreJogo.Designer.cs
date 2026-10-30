@@ -50,6 +50,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(btnComecarJogo);
             Name = "CenaPreJogo";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "CenaPreJogo";
             ResumeLayout(false);
         }
