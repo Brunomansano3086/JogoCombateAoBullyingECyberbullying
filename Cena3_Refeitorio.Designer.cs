@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cena3_Refeitorio));
             btnCena3A = new Button();
             btnCena3B = new Button();
             btnCena3C = new Button();
@@ -68,7 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Refeitório_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(700, 338);
             Controls.Add(btnCena3C);

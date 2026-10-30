@@ -113,6 +113,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Corredor_3_opções {
+            get {
+                object obj = ResourceManager.GetObject("Corredor 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Créditos {
             get {
                 object obj = ResourceManager.GetObject("Créditos", resourceCulture);
@@ -166,6 +176,26 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Laboratório_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Laboratório 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Refeitório_3_opções {
+            get {
+                object obj = ResourceManager.GetObject("Refeitório 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sobre_o_tema {
+            get {
+                object obj = ResourceManager.GetObject("Sobre o tema", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

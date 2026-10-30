@@ -28,16 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExplicacaoBullying));
             btnVoltar = new Button();
             SuspendLayout();
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(22, 13);
-            btnVoltar.Margin = new Padding(3, 4, 3, 4);
+            btnVoltar.Location = new Point(16, 10);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(116, 35);
+            btnVoltar.Size = new Size(127, 47);
             btnVoltar.TabIndex = 0;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
@@ -45,12 +43,13 @@
             // 
             // ExplicacaoBullying
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Sobre_o_tema;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 451);
+            ClientSize = new Size(804, 493);
             Controls.Add(btnVoltar);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ExplicacaoBullying";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ExplicacaoBullying";

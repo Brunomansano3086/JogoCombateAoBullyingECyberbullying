@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cena6_Corredor));
             btnCena6A = new Button();
             btnCena6B = new Button();
             btnCena6C = new Button();
@@ -68,7 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Corredor_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(700, 338);
             Controls.Add(btnCena6C);
