@@ -28,16 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Creditos));
             btnVoltar = new Button();
             SuspendLayout();
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(23, 13);
-            btnVoltar.Margin = new Padding(3, 4, 3, 4);
+            btnVoltar.Location = new Point(15, 9);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(116, 36);
+            btnVoltar.Size = new Size(122, 43);
             btnVoltar.TabIndex = 0;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;
@@ -45,12 +43,13 @@
             // 
             // Creditos
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Créditos;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 451);
+            ClientSize = new Size(748, 440);
             Controls.Add(btnVoltar);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Creditos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Creditos";

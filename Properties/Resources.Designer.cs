@@ -103,9 +103,9 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CenaPreJogo1 {
+        internal static System.Drawing.Bitmap Coordenador_3_opções {
             get {
-                object obj = ResourceManager.GetObject("CenaPreJogo1", resourceCulture);
+                object obj = ResourceManager.GetObject("Coordenador 3 opções", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Coordenador_3_opções {
+        internal static System.Drawing.Bitmap Créditos {
             get {
-                object obj = ResourceManager.GetObject("Coordenador 3 opções", resourceCulture);
+                object obj = ResourceManager.GetObject("Créditos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +146,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap GitHub_3_opções {
             get {
                 object obj = ResourceManager.GetObject("GitHub 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jogo_Bullying {
+            get {
+                object obj = ResourceManager.GetObject("Jogo Bullying", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
