@@ -73,9 +73,69 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Apresentação_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Apresentação opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Apresentação_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Apresentação opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Apresentação_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Apresentação opção C Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Banheiro_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Banheiro 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Banheiro_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Banheiro opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Banheiro_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Banheiro opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Banheiro_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Banheiro opção C Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +173,69 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Coordenador_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Coordenador opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Coordenador_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Coordenador opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Coordenador_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Coordenador opção C Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Corredor_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Corredor 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Corredor_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Corredor opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Corredor_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Corredor opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Corredor_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Corredor opção C Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +263,36 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Discord_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Discord opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Discord_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Discord opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Discord_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Discord opção C Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Estacionamento_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Estacionamento 3 opções", resourceCulture);
@@ -153,9 +303,59 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Estacionamento_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Estacionamento opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Estacionamento_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Estacionamento opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Estacionamento_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Estacionamento opção C Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GitHub_3_opções {
             get {
                 object obj = ResourceManager.GetObject("GitHub 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GitHub_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("GitHub opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GitHub_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("GitHub opção B Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +383,69 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Laboratório_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Laboratório opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Laboratório_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Laboratório opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Laboratório_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Laboratório opção C Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Refeitório_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Refeitório 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Refeitório_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Refeitório opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Refeitório_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Refeitório opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Refeitório_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Refeitório opção C Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +486,36 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap WhatsApp_3_opções {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp 3 opções", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_opção_A_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp opção A Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Whatsapp_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("Whatsapp opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_opção_C_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp opção C Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
