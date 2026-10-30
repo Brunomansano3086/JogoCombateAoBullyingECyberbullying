@@ -203,6 +203,26 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Tela_de_Créditos_Unisagrado {
+            get {
+                object obj = ResourceManager.GetObject("Tela de Créditos Unisagrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tela_Inicial_Entrada_Unisagrado {
+            get {
+                object obj = ResourceManager.GetObject("Tela Inicial Entrada Unisagrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_3_opções {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp 3 opções", resourceCulture);
