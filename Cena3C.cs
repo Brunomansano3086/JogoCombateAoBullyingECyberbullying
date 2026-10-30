@@ -13,6 +13,13 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena3C()
         {
             InitializeComponent();
+
+            btnProximo.Text = "";
+            btnProximo.FlatStyle = FlatStyle.Flat;
+            btnProximo.BackColor = Color.Transparent;
+            btnProximo.FlatAppearance.BorderSize = 0;
+            btnProximo.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnProximo.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnProximo_Click(object sender, EventArgs e)
