@@ -33,9 +33,9 @@
             // 
             // btnProximo
             // 
-            btnProximo.Location = new Point(363, 214);
+            btnProximo.Location = new Point(638, 409);
             btnProximo.Name = "btnProximo";
-            btnProximo.Size = new Size(75, 23);
+            btnProximo.Size = new Size(136, 37);
             btnProximo.TabIndex = 1;
             btnProximo.Text = "Próximo";
             btnProximo.UseVisualStyleBackColor = true;
@@ -52,6 +52,7 @@
             Name = "Cena2A";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena2A";
+            FormClosing += Cena2A_FormClosing;
             ResumeLayout(false);
         }
 

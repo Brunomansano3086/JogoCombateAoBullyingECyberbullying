@@ -53,6 +53,7 @@
             Name = "ExplicacaoBullying";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ExplicacaoBullying";
+            FormClosing += ExplicacaoBullying_FormClosing;
             ResumeLayout(false);
         }
 

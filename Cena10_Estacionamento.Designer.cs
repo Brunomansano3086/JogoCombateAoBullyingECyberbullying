@@ -77,6 +77,7 @@
             Name = "Cena10_Estacionamento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena10_Estacionamento";
+            FormClosing += Cena10_Estacionamento_FormClosing;
             ResumeLayout(false);
         }
 

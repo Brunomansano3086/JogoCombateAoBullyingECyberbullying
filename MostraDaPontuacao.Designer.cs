@@ -50,6 +50,7 @@
             Name = "MostraDaPontuacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MostraDaPontuacao";
+            FormClosing += MostraDaPontuacao_FormClosing;
             ResumeLayout(false);
         }
 

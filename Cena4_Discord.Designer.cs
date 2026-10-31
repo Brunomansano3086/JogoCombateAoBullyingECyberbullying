@@ -76,6 +76,7 @@
             Name = "Cena4_Discord";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena4_Discord";
+            FormClosing += Cena4_Discord_FormClosing;
             ResumeLayout(false);
         }
 

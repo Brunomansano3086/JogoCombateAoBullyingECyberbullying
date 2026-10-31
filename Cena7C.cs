@@ -27,5 +27,16 @@ namespace JogoCombateAoBullyingECyberbullying
             new Cena8_Banheiro().Show();
             this.Close();
         }
+
+        private void Cena7C_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing &&
+        !Application.OpenForms.Cast<Form>().Any(f => f != this && f.Visible))
+            {
+                var inicial = Application.OpenForms.OfType<TelaInicial>().FirstOrDefault();
+                if (inicial != null) inicial.Show();
+                else new TelaInicial().Show();
+            }
+        }
     }
 }

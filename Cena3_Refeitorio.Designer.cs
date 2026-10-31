@@ -78,6 +78,7 @@
             Name = "Cena3_Refeitorio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena3_Refeitorio";
+            FormClosing += Cena3_Refeitorio_FormClosing;
             ResumeLayout(false);
         }
 

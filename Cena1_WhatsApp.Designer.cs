@@ -77,6 +77,7 @@
             Name = "Cena1_WhatsApp";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena1_WhatsApp";
+            FormClosing += Cena1_WhatsApp_FormClosing;
             ResumeLayout(false);
         }
 

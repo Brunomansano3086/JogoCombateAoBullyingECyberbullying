@@ -77,6 +77,7 @@
             Name = "Cena9_Coordenador";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena9_Coordenador";
+            FormClosing += Cena9_Coordenador_FormClosing;
             ResumeLayout(false);
         }
 

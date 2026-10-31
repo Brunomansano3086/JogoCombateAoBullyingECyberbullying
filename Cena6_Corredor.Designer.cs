@@ -77,6 +77,7 @@
             Name = "Cena6_Corredor";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena6_Corredor";
+            FormClosing += Cena6_Corredor_FormClosing;
             ResumeLayout(false);
         }
 

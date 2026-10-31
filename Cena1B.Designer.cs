@@ -52,6 +52,7 @@
             Name = "Cena1B";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena1B";
+            FormClosing += Cena1B_FormClosing;
             ResumeLayout(false);
         }
 

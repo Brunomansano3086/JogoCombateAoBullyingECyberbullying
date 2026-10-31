@@ -51,6 +51,7 @@
             Name = "FinalRuim";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalRuim";
+            FormClosing += FinalRuim_FormClosing;
             ResumeLayout(false);
         }
 

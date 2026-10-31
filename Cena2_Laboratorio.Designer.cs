@@ -76,6 +76,7 @@
             Name = "Cena2_Laboratorio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena2_Laboratorio";
+            FormClosing += Cena2_Laboratorio_FormClosing;
             ResumeLayout(false);
         }
 

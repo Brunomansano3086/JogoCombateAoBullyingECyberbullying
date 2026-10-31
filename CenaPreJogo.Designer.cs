@@ -52,6 +52,7 @@
             Name = "CenaPreJogo";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CenaPreJogo";
+            FormClosing += CenaPreJogo_FormClosing;
             ResumeLayout(false);
         }
 

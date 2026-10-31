@@ -77,6 +77,7 @@
             Name = "Cena5_GitHub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena5_GitHub";
+            FormClosing += Cena5_GitHub_FormClosing;
             ResumeLayout(false);
         }
 

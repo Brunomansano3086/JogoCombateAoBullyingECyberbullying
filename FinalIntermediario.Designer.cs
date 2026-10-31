@@ -51,6 +51,7 @@
             Name = "FinalIntermediario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalIntermediario";
+            FormClosing += FinalIntermediario_FormClosing;
             ResumeLayout(false);
         }
 

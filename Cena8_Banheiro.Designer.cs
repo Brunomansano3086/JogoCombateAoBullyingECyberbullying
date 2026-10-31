@@ -77,6 +77,7 @@
             Name = "Cena8_Banheiro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena8_Banheiro";
+            FormClosing += Cena8_Banheiro_FormClosing;
             ResumeLayout(false);
         }
 

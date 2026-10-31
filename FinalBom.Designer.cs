@@ -51,6 +51,7 @@
             Name = "FinalBom";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalBom";
+            FormClosing += FinalBom_FormClosing;
             ResumeLayout(false);
         }
 

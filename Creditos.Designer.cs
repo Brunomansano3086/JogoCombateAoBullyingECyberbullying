@@ -53,6 +53,7 @@
             Name = "Creditos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Creditos";
+            FormClosing += Creditos_FormClosing;
             ResumeLayout(false);
         }
 
