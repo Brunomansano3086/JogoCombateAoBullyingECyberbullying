@@ -28,25 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnVoltarTelaInicial = new Button();
+            btnMostraPontuacao = new Button();
             SuspendLayout();
             // 
-            // btnVoltarTelaInicial
+            // btnMostraPontuacao
             // 
-            btnVoltarTelaInicial.Location = new Point(297, 204);
-            btnVoltarTelaInicial.Name = "btnVoltarTelaInicial";
-            btnVoltarTelaInicial.Size = new Size(207, 43);
-            btnVoltarTelaInicial.TabIndex = 1;
-            btnVoltarTelaInicial.Text = "Voltar p tela inicial";
-            btnVoltarTelaInicial.UseVisualStyleBackColor = true;
-            btnVoltarTelaInicial.Click += btnVoltarTelaInicial_Click;
+            btnMostraPontuacao.Location = new Point(641, 410);
+            btnMostraPontuacao.Name = "btnMostraPontuacao";
+            btnMostraPontuacao.Size = new Size(133, 34);
+            btnMostraPontuacao.TabIndex = 1;
+            btnMostraPontuacao.UseVisualStyleBackColor = true;
+            btnMostraPontuacao.Click += btnMostraPontuacao_Click;
             // 
             // FinalIntermediario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Final_Intermediário_Pontuação;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnVoltarTelaInicial);
+            Controls.Add(btnMostraPontuacao);
             Name = "FinalIntermediario";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalIntermediario";
@@ -55,6 +56,6 @@
 
         #endregion
 
-        private Button btnVoltarTelaInicial;
+        private Button btnMostraPontuacao;
     }
 }

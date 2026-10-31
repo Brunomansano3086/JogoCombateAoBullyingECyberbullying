@@ -333,6 +333,36 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Final_Bom_Pontuação {
+            get {
+                object obj = ResourceManager.GetObject("Final Bom Pontuação", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Final_Intermediário_Pontuação {
+            get {
+                object obj = ResourceManager.GetObject("Final Intermediário Pontuação", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Final_Ruim_Pontuação {
+            get {
+                object obj = ResourceManager.GetObject("Final Ruim Pontuação", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GitHub_3_opções {
             get {
                 object obj = ResourceManager.GetObject("GitHub 3 opções", resourceCulture);
@@ -466,6 +496,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Tela_de_Créditos_Unisagrado {
             get {
                 object obj = ResourceManager.GetObject("Tela de Créditos Unisagrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tela_Final_Bom {
+            get {
+                object obj = ResourceManager.GetObject("Tela Final Bom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

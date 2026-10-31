@@ -13,18 +13,18 @@ namespace JogoCombateAoBullyingECyberbullying
         public FinalIntermediario()
         {
             InitializeComponent();
+
+            btnMostraPontuacao.Text = "";
+            btnMostraPontuacao.FlatStyle = FlatStyle.Flat;
+            btnMostraPontuacao.BackColor = Color.Transparent;
+            btnMostraPontuacao.FlatAppearance.BorderSize = 0;
+            btnMostraPontuacao.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnMostraPontuacao.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
-        private void btnVoltarTelaInicial_Click(object sender, EventArgs e)
+        private void btnMostraPontuacao_Click(object sender, EventArgs e)
         {
-            foreach (Form f in Application.OpenForms)
-            {
-                if (f is TelaInicial)
-                {
-                    f.Show();
-                    break;
-                }
-            }
+            new MostraDaPontuacao().Show();
             this.Close();
         }
     }

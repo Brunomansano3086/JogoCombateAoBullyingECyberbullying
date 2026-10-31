@@ -37,9 +37,9 @@
             // btnJogar
             // 
             btnJogar.FlatStyle = FlatStyle.Flat;
-            btnJogar.Location = new Point(553, 199);
+            btnJogar.Location = new Point(36, 213);
             btnJogar.Name = "btnJogar";
-            btnJogar.Size = new Size(221, 46);
+            btnJogar.Size = new Size(189, 48);
             btnJogar.TabIndex = 0;
             btnJogar.Text = "Jogar";
             btnJogar.UseVisualStyleBackColor = true;
@@ -48,9 +48,9 @@
             // btnTema
             // 
             btnTema.FlatStyle = FlatStyle.Flat;
-            btnTema.Location = new Point(553, 253);
+            btnTema.Location = new Point(36, 262);
             btnTema.Name = "btnTema";
-            btnTema.Size = new Size(221, 46);
+            btnTema.Size = new Size(189, 48);
             btnTema.TabIndex = 1;
             btnTema.Text = "Tema";
             btnTema.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // btnSair
             // 
             btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.Location = new Point(553, 358);
+            btnSair.Location = new Point(36, 361);
             btnSair.Name = "btnSair";
-            btnSair.Size = new Size(221, 46);
+            btnSair.Size = new Size(189, 48);
             btnSair.TabIndex = 2;
             btnSair.Text = "Sair";
             btnSair.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // btnCreditos
             // 
             btnCreditos.FlatStyle = FlatStyle.Flat;
-            btnCreditos.Location = new Point(553, 306);
+            btnCreditos.Location = new Point(36, 312);
             btnCreditos.Name = "btnCreditos";
-            btnCreditos.Size = new Size(221, 46);
+            btnCreditos.Size = new Size(189, 48);
             btnCreditos.TabIndex = 3;
             btnCreditos.Text = "Créditos";
             btnCreditos.UseVisualStyleBackColor = true;
