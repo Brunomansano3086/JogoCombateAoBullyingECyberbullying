@@ -10,10 +10,14 @@
 
   <ItemGroup>
     <None Remove="MusicaFundo.wav" />
+    <None Remove="Sons\MusicaJogar.wav" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Sons\MusicaFundo.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\MusicaJogar.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

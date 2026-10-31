@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            GerenciadorAudio.TocarMusicaJogo(); // Inicia a música de fundo ao abrir a cena
+
             btnCena1A = new Button();
             btnCena1B = new Button();
             btnCena1C = new Button();
@@ -35,9 +37,10 @@
             // 
             // btnCena1A
             // 
-            btnCena1A.Location = new Point(539, 100);
+            btnCena1A.Location = new Point(616, 133);
+            btnCena1A.Margin = new Padding(3, 4, 3, 4);
             btnCena1A.Name = "btnCena1A";
-            btnCena1A.Size = new Size(249, 102);
+            btnCena1A.Size = new Size(285, 136);
             btnCena1A.TabIndex = 0;
             btnCena1A.Text = "A";
             btnCena1A.UseVisualStyleBackColor = true;
@@ -45,9 +48,10 @@
             // 
             // btnCena1B
             // 
-            btnCena1B.Location = new Point(539, 208);
+            btnCena1B.Location = new Point(616, 277);
+            btnCena1B.Margin = new Padding(3, 4, 3, 4);
             btnCena1B.Name = "btnCena1B";
-            btnCena1B.Size = new Size(249, 103);
+            btnCena1B.Size = new Size(285, 137);
             btnCena1B.TabIndex = 1;
             btnCena1B.Text = "B";
             btnCena1B.UseVisualStyleBackColor = true;
@@ -55,9 +59,10 @@
             // 
             // btnCena1C
             // 
-            btnCena1C.Location = new Point(539, 317);
+            btnCena1C.Location = new Point(617, 422);
+            btnCena1C.Margin = new Padding(3, 4, 3, 4);
             btnCena1C.Name = "btnCena1C";
-            btnCena1C.Size = new Size(249, 105);
+            btnCena1C.Size = new Size(285, 140);
             btnCena1C.TabIndex = 2;
             btnCena1C.Text = "C";
             btnCena1C.UseVisualStyleBackColor = true;
@@ -65,15 +70,16 @@
             // 
             // Cena1_WhatsApp
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.WhatsApp_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(btnCena1C);
             Controls.Add(btnCena1B);
             Controls.Add(btnCena1A);
             DoubleBuffered = true;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Cena1_WhatsApp";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena1_WhatsApp";

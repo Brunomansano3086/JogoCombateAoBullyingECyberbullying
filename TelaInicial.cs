@@ -13,17 +13,10 @@ namespace JogoCombateAoBullyingECyberbullying
     public partial class TelaInicial : Form
     {
 
-        private SoundPlayer musicaFundo;
         public TelaInicial()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
-
-            string caminhoAudio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Sons", "MusicaFundo.wav");
-            if (File.Exists(caminhoAudio))
-            {
-                musicaFundo = new SoundPlayer(caminhoAudio);
-            }
 
             btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
@@ -56,11 +49,14 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-            musicaFundo.PlayLooping();
+            GerenciadorAudio.TocarMusicaFundo();
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
         {
+
+            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao iniciar o jogo
+
             Pontuacao.Zerar();
             new CenaPreJogo().Show();
             this.Hide();
@@ -68,9 +64,12 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnTema_Click(object sender, EventArgs e)
         {
+            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao abrir a explicação do bullying
+
             this.Hide();
             new ExplicacaoBullying().ShowDialog();
             this.Show();
+            GerenciadorAudio.TocarMusicaFundo(); //retoma a música de fundo ao voltar para a tela inicial
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -80,9 +79,12 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnCreditos_Click(object sender, EventArgs e)
         {
+            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao abrir os créditos
+
             this.Hide();
             new Creditos().ShowDialog();
             this.Show();
+            GerenciadorAudio.TocarMusicaFundo(); //retoma a música de fundo ao voltar para a tela inicial
         }
     }
 }
