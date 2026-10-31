@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Media;
-
+using System.IO;
 
 namespace JogoCombateAoBullyingECyberbullying
 {
@@ -19,7 +19,11 @@ namespace JogoCombateAoBullyingECyberbullying
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            musicaFundo = new SoundPlayer("MusicaFundo.wav");
+            string caminhoAudio = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Sons", "MusicaFundo.wav");
+            if (File.Exists(caminhoAudio))
+            {
+                musicaFundo = new SoundPlayer(caminhoAudio);
+            }
 
             btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
