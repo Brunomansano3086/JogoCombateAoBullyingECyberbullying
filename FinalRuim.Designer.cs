@@ -48,6 +48,8 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnMostraPontuacao);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "FinalRuim";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FinalRuim";

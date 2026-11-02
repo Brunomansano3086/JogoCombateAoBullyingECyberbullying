@@ -74,6 +74,8 @@
             Controls.Add(btnCena1B);
             Controls.Add(btnCena1A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena1_WhatsApp";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena1_WhatsApp";

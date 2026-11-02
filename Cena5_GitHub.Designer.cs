@@ -74,6 +74,8 @@
             Controls.Add(btnCena5B);
             Controls.Add(btnCena5A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena5_GitHub";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena5_GitHub";

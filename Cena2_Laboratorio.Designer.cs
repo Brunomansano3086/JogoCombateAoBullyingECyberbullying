@@ -73,6 +73,8 @@
             Controls.Add(btnCena2C);
             Controls.Add(btnCena2B);
             Controls.Add(btnCena2A);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena2_Laboratorio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena2_Laboratorio";

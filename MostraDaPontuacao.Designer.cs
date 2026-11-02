@@ -47,6 +47,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnVoltarAoMenu);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "MostraDaPontuacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "MostraDaPontuacao";

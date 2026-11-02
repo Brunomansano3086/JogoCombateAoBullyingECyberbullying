@@ -89,6 +89,8 @@
             Controls.Add(btnSair);
             Controls.Add(btnTema);
             Controls.Add(btnJogar);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "TelaInicial";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TelaInicial";

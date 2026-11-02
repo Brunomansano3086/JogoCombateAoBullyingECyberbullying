@@ -74,6 +74,8 @@
             Controls.Add(btnCena7B);
             Controls.Add(btnCena7A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena7_Apresentacao";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena7_Apresentacao";

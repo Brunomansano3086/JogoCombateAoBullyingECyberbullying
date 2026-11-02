@@ -74,7 +74,9 @@
             Controls.Add(btnCena3B);
             Controls.Add(btnCena3A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "Cena3_Refeitorio";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena3_Refeitorio";

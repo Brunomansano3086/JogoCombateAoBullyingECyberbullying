@@ -74,6 +74,8 @@
             Controls.Add(btnCena10B);
             Controls.Add(btnCena10A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena10_Estacionamento";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena10_Estacionamento";

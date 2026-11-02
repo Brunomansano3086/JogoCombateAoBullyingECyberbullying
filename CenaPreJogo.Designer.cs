@@ -49,6 +49,8 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnComecarJogo);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "CenaPreJogo";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "CenaPreJogo";

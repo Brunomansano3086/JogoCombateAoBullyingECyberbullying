@@ -74,6 +74,8 @@
             Controls.Add(btnCena9B);
             Controls.Add(btnCena9A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena9_Coordenador";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena9_Coordenador";

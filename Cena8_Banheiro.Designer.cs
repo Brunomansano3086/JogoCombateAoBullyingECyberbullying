@@ -74,6 +74,8 @@
             Controls.Add(btnCena8B);
             Controls.Add(btnCena8A);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena8_Banheiro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena8_Banheiro";

@@ -73,7 +73,9 @@
             Controls.Add(btnCena6C);
             Controls.Add(btnCena6B);
             Controls.Add(btnCena6A);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "Cena6_Corredor";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena6_Corredor";

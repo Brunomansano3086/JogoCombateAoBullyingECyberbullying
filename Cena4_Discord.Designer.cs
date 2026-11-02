@@ -73,6 +73,8 @@
             Controls.Add(btnCena4C);
             Controls.Add(btnCena4B);
             Controls.Add(btnCena4A);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena4_Discord";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena4_Discord";

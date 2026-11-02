@@ -49,7 +49,9 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnVoltar);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
             Name = "Creditos";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Creditos";

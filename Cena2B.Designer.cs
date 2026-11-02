@@ -49,6 +49,8 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnProximo);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
             Name = "Cena2B";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Cena2B";
