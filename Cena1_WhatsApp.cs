@@ -67,5 +67,10 @@ namespace JogoCombateAoBullyingECyberbullying
                 else new TelaInicial().Show();
             }
         }
+
+        private void Cena1_WhatsApp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -47,7 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.CenaPreJogo;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnComecarJogo);
             Name = "CenaPreJogo";
             StartPosition = FormStartPosition.CenterScreen;

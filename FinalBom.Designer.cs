@@ -46,7 +46,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Final_Bom_Pontuação;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnMostraPontuacao);
             Name = "FinalBom";
             StartPosition = FormStartPosition.CenterScreen;

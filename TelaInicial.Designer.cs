@@ -84,7 +84,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Tela_Inicial_Entrada_Unisagrado;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnCreditos);
             Controls.Add(btnSair);
             Controls.Add(btnTema);

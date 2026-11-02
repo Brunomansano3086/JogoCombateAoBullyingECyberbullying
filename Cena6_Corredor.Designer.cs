@@ -69,7 +69,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Corredor_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(700, 338);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnCena6C);
             Controls.Add(btnCena6B);
             Controls.Add(btnCena6A);

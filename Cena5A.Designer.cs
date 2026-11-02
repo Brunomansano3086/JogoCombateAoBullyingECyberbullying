@@ -47,7 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.GitHub_opção_A_Avançar;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnProximo);
             Name = "Cena5A";
             StartPosition = FormStartPosition.CenterScreen;

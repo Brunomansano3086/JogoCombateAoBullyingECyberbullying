@@ -47,7 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Sobre_o_tema;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(804, 493);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnVoltar);
             Margin = new Padding(3, 2, 3, 2);
             Name = "ExplicacaoBullying";

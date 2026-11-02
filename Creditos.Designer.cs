@@ -47,7 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Tela_de_Créditos_Unisagrado;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(748, 440);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnVoltar);
             Margin = new Padding(3, 2, 3, 2);
             Name = "Creditos";

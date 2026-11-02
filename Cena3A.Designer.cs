@@ -47,7 +47,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Refeitório_opção_A_Avançar;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnProximo);
             Name = "Cena3A";
             StartPosition = FormStartPosition.CenterScreen;

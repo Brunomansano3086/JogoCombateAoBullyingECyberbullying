@@ -69,7 +69,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.GitHub_3_opções;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(816, 450);
+            ClientSize = new Size(1084, 561);
             Controls.Add(btnCena5C);
             Controls.Add(btnCena5B);
             Controls.Add(btnCena5A);
