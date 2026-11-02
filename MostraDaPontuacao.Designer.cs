@@ -33,9 +33,9 @@
             // 
             // btnVoltarAoMenu
             // 
-            btnVoltarAoMenu.Location = new Point(432, 191);
+            btnVoltarAoMenu.Location = new Point(854, 474);
             btnVoltarAoMenu.Name = "btnVoltarAoMenu";
-            btnVoltarAoMenu.Size = new Size(155, 23);
+            btnVoltarAoMenu.Size = new Size(178, 46);
             btnVoltarAoMenu.TabIndex = 0;
             btnVoltarAoMenu.Text = "Voltar ao Menu";
             btnVoltarAoMenu.UseVisualStyleBackColor = true;
