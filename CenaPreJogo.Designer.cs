@@ -33,9 +33,9 @@
             // 
             // btnComecarJogo
             // 
-            btnComecarJogo.Location = new Point(252, 416);
+            btnComecarJogo.Location = new Point(341, 517);
             btnComecarJogo.Name = "btnComecarJogo";
-            btnComecarJogo.Size = new Size(299, 32);
+            btnComecarJogo.Size = new Size(407, 43);
             btnComecarJogo.TabIndex = 0;
             btnComecarJogo.Text = "Começar jogo";
             btnComecarJogo.UseVisualStyleBackColor = true;

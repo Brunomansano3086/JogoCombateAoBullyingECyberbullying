@@ -33,9 +33,9 @@
             // 
             // btnVoltar
             // 
-            btnVoltar.Location = new Point(16, 10);
+            btnVoltar.Location = new Point(21, 12);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(127, 47);
+            btnVoltar.Size = new Size(170, 50);
             btnVoltar.TabIndex = 0;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = true;

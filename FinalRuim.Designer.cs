@@ -33,9 +33,9 @@
             // 
             // btnMostraPontuacao
             // 
-            btnMostraPontuacao.Location = new Point(639, 412);
+            btnMostraPontuacao.Location = new Point(866, 513);
             btnMostraPontuacao.Name = "btnMostraPontuacao";
-            btnMostraPontuacao.Size = new Size(133, 32);
+            btnMostraPontuacao.Size = new Size(181, 40);
             btnMostraPontuacao.TabIndex = 1;
             btnMostraPontuacao.UseVisualStyleBackColor = true;
             btnMostraPontuacao.Click += btnMostraPontuacao_Click;

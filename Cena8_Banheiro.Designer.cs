@@ -35,9 +35,9 @@
             // 
             // btnCena8A
             // 
-            btnCena8A.Location = new Point(534, 139);
+            btnCena8A.Location = new Point(727, 174);
             btnCena8A.Name = "btnCena8A";
-            btnCena8A.Size = new Size(259, 79);
+            btnCena8A.Size = new Size(349, 98);
             btnCena8A.TabIndex = 0;
             btnCena8A.Text = "A";
             btnCena8A.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // btnCena8B
             // 
-            btnCena8B.Location = new Point(534, 224);
+            btnCena8B.Location = new Point(727, 278);
             btnCena8B.Name = "btnCena8B";
-            btnCena8B.Size = new Size(259, 74);
+            btnCena8B.Size = new Size(349, 95);
             btnCena8B.TabIndex = 1;
             btnCena8B.Text = "B";
             btnCena8B.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // btnCena8C
             // 
-            btnCena8C.Location = new Point(534, 304);
+            btnCena8C.Location = new Point(727, 379);
             btnCena8C.Name = "btnCena8C";
-            btnCena8C.Size = new Size(259, 76);
+            btnCena8C.Size = new Size(349, 94);
             btnCena8C.TabIndex = 2;
             btnCena8C.Text = "C";
             btnCena8C.UseVisualStyleBackColor = true;

@@ -33,9 +33,9 @@
             // 
             // btnProximo
             // 
-            btnProximo.Location = new Point(638, 409);
+            btnProximo.Location = new Point(862, 511);
             btnProximo.Name = "btnProximo";
-            btnProximo.Size = new Size(136, 37);
+            btnProximo.Size = new Size(189, 46);
             btnProximo.TabIndex = 1;
             btnProximo.Text = "Próximo";
             btnProximo.UseVisualStyleBackColor = true;

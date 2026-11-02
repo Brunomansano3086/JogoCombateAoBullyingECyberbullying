@@ -383,9 +383,9 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap GitHub_opção_B_Avançar {
+        internal static System.Drawing.Bitmap GitHub_opção_C_Avançar {
             get {
-                object obj = ResourceManager.GetObject("GitHub opção B Avançar", resourceCulture);
+                object obj = ResourceManager.GetObject("GitHub opção C Avançar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
