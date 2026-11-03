@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            GerenciadorAudio.TocarMusicaJogo(); // Inicia a música de fundo ao abrir a tela
+
             btnCena7A = new Button();
             btnCena7B = new Button();
             btnCena7C = new Button();

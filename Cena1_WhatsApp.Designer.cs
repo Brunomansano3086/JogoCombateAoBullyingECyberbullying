@@ -27,7 +27,11 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
+
         {
+            GerenciadorAudio.TocarMusicaJogo(); // Inicia a música de fundo ao abrir a tela
+
+
             btnCena1A = new Button();
             btnCena1B = new Button();
             btnCena1C = new Button();
@@ -86,7 +90,10 @@
 
         #endregion
 
+
+
         private Button btnCena1A;
+
         private Button btnCena1B;
         private Button btnCena1C;
     }

@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            GerenciadorAudio.TocarSomOpcaoBom();
+
             btnProximo = new Button();
             SuspendLayout();
             // 

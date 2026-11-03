@@ -10,14 +10,36 @@
 
   <ItemGroup>
     <None Remove="MusicaFundo.wav" />
+    <None Remove="Sons\FinalBom.wav" />
+    <None Remove="Sons\FinalRuim.wav" />
     <None Remove="Sons\MusicaJogar.wav" />
+    <None Remove="Sons\OpcaoBom.wav" />
+    <None Remove="Sons\OpcaoRuim.wav" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Sons\FinalBom.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\FinalOmissao.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\FinalRuim.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Sons\MusicaFundo.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Sons\MusicaJogar.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\OpcaoBom.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\OpcaoOmissao.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sons\OpcaoRuim.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            GerenciadorAudio.TocarSomFinalRuim();
+
             btnMostraPontuacao = new Button();
             SuspendLayout();
             // 
