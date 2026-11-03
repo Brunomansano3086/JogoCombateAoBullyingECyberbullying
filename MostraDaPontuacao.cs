@@ -17,6 +17,13 @@ namespace JogoCombateAoBullyingECyberbullying
             lblPosturaAtiva.Text = Pontuacao.PosturaAtiva.ToString();
             lblOmissao.Text = Pontuacao.Omissao.ToString();
             lblCumplicidade.Text = Pontuacao.Cumplicidade.ToString();
+
+            btnVoltarAoMenu.Text = "";
+            btnVoltarAoMenu.FlatStyle = FlatStyle.Flat;
+            btnVoltarAoMenu.BackColor = Color.Transparent;
+            btnVoltarAoMenu.FlatAppearance.BorderSize = 0;
+            btnVoltarAoMenu.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
+            btnVoltarAoMenu.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
 
         private void btnVoltarAoMenu_Click(object sender, EventArgs e)
