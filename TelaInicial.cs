@@ -17,11 +17,12 @@ namespace JogoCombateAoBullyingECyberbullying
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
+            this.VisibleChanged += TelaInicial_VisibleChanged; // Adiciona o evento VisibleChanged para controlar a música de fundo
 
-            btnJogar.Text = ""; // <--- APAGA O TEXTO SOBREPOSTO
+            btnJogar.Text = ""; // APAGA O TEXTO SOBREPOSTO
             btnJogar.FlatStyle = FlatStyle.Flat;
             btnJogar.BackColor = Color.Transparent;
-            btnJogar.FlatAppearance.BorderSize = 0; // <--- REMOVE A BORDA RETANGULAR
+            btnJogar.FlatAppearance.BorderSize = 0; // REMOVE A BORDA RETANGULAR
             btnJogar.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnJogar.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
 
@@ -49,13 +50,22 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void TelaInicial_Load(object sender, EventArgs e)
         {
-            GerenciadorAudio.TocarMusicaFundo();
+        }
+        private void TelaInicial_VisibleChanged(object sender, EventArgs e) // vai fazer com que a música de fundo toque quando a tela inicial estiver visível e parar quando não estiver
+        {
+            if (this.Visible)
+            {
+                GerenciadorAudio.TocarMusicaFundo();
+            }
+            else
+            {
+                GerenciadorAudio.PararMusicaFundo();
+            }
         }
 
         private void btnJogar_Click(object sender, EventArgs e)
         {
 
-            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao iniciar o jogo
 
             Pontuacao.Zerar();
             new CenaPreJogo().Show();
@@ -64,12 +74,10 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnTema_Click(object sender, EventArgs e)
         {
-            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao abrir a explicação do bullying
 
             this.Hide();
             new ExplicacaoBullying().ShowDialog();
             this.Show();
-            GerenciadorAudio.TocarMusicaFundo(); //retoma a música de fundo ao voltar para a tela inicial
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -79,12 +87,10 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnCreditos_Click(object sender, EventArgs e)
         {
-            GerenciadorAudio.PararMusicaFundo(); //para a música de fundo ao abrir os créditos
 
             this.Hide();
             new Creditos().ShowDialog();
             this.Show();
-            GerenciadorAudio.TocarMusicaFundo(); //retoma a música de fundo ao voltar para a tela inicial
         }
     }
 }
