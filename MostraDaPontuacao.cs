@@ -13,6 +13,10 @@ namespace JogoCombateAoBullyingECyberbullying
         public MostraDaPontuacao()
         {
             InitializeComponent();
+
+            lblPosturaAtiva.Text = Pontuacao.PosturaAtiva.ToString();
+            lblOmissao.Text = Pontuacao.Omissao.ToString();
+            lblCumplicidade.Text = Pontuacao.Cumplicidade.ToString();
         }
 
         private void btnVoltarAoMenu_Click(object sender, EventArgs e)

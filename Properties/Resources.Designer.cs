@@ -383,6 +383,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GitHub_opção_B_Avançar {
+            get {
+                object obj = ResourceManager.GetObject("GitHub opção B Avançar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GitHub_opção_C_Avançar {
             get {
                 object obj = ResourceManager.GetObject("GitHub opção C Avançar", resourceCulture);
@@ -516,6 +526,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Tela_Inicial_Entrada_Unisagrado {
             get {
                 object obj = ResourceManager.GetObject("Tela Inicial Entrada Unisagrado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tela_Pontuação {
+            get {
+                object obj = ResourceManager.GetObject("Tela Pontuação", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

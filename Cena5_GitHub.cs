@@ -45,14 +45,14 @@ namespace JogoCombateAoBullyingECyberbullying
 
         private void btnCena5B_Click(object sender, EventArgs e)
         {
-            Pontuacao.Adicionar(TipoResposta.PosturaAtiva);
+            Pontuacao.Adicionar(TipoResposta.Omissao);
             new Cena5B().Show();
             this.Close();
         }
 
         private void btnCena5C_Click(object sender, EventArgs e)
         {
-            Pontuacao.Adicionar(TipoResposta.Omissao);
+            Pontuacao.Adicionar(TipoResposta.PosturaAtiva);
             new Cena5C().Show();
             this.Close();
         }

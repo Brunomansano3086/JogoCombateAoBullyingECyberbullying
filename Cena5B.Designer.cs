@@ -33,9 +33,9 @@
             // 
             // btnProximo
             // 
-            btnProximo.Location = new Point(630, 415);
+            btnProximo.Location = new Point(854, 516);
             btnProximo.Name = "btnProximo";
-            btnProximo.Size = new Size(145, 32);
+            btnProximo.Size = new Size(200, 41);
             btnProximo.TabIndex = 1;
             btnProximo.Text = "Próximo";
             btnProximo.UseVisualStyleBackColor = true;
@@ -45,6 +45,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.GitHub_opção_B_Avançar;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnProximo);
