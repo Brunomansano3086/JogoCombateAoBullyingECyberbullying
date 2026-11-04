@@ -82,7 +82,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Tela_Inicial_Entrada_Unisagrado;
+            BackgroundImage = Properties.Resources.Entre_o_silencio_e_a_coragem_tela_inicial;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1084, 561);
             Controls.Add(btnCreditos);

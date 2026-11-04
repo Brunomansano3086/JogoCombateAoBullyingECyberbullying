@@ -293,6 +293,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Entre_o_silencio_e_a_coragem_tela_inicial {
+            get {
+                object obj = ResourceManager.GetObject("Entre o silencio e a coragem tela inicial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Estacionamento_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Estacionamento 3 opções", resourceCulture);
@@ -516,16 +526,6 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Tela_Final_Bom {
             get {
                 object obj = ResourceManager.GetObject("Tela Final Bom", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Tela_Inicial_Entrada_Unisagrado {
-            get {
-                object obj = ResourceManager.GetObject("Tela Inicial Entrada Unisagrado", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
