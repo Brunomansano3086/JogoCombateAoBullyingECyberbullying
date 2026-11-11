@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena3_Refeitorio()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnCena3A.Text = "";
             btnCena3A.FlatStyle = FlatStyle.Flat;

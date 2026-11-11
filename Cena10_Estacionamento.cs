@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena10_Estacionamento()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnCena10A.Text = "";
             btnCena10A.FlatStyle = FlatStyle.Flat;

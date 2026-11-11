@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena1_WhatsApp()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnCena1A.Text = "";
             btnCena1A.FlatStyle = FlatStyle.Flat;

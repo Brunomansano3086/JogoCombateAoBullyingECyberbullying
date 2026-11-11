@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena4_Discord()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnCena4A.Text = "";
             btnCena4A.FlatStyle = FlatStyle.Flat;

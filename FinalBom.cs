@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public FinalBom()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnMostraPontuacao.Text = "";
             btnMostraPontuacao.FlatStyle = FlatStyle.Flat;

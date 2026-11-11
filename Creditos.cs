@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Creditos()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
             this.StartPosition = FormStartPosition.CenterScreen;
 
             btnVoltar.Text = "";

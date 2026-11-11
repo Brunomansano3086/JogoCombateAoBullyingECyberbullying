@@ -16,6 +16,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public TelaInicial()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.VisibleChanged += TelaInicial_VisibleChanged; // Adiciona o evento VisibleChanged para controlar a música de fundo
 

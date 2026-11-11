@@ -14,6 +14,9 @@ namespace JogoCombateAoBullyingECyberbullying
         {
             InitializeComponent();
 
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+
             lblPosturaAtiva.Text = Pontuacao.PosturaAtiva.ToString();
             lblOmissao.Text = Pontuacao.Omissao.ToString();
             lblCumplicidade.Text = Pontuacao.Cumplicidade.ToString();

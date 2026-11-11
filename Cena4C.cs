@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena4C()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnProximo.Text = "";
             btnProximo.FlatStyle = FlatStyle.Flat;

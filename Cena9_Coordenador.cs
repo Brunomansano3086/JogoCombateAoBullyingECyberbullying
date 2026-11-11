@@ -13,6 +13,8 @@ namespace JogoCombateAoBullyingECyberbullying
         public Cena9_Coordenador()
         {
             InitializeComponent();
+            this.Text = "Entre o Silêncio e a Coragem";
+            this.Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
 
             btnCena9A.Text = "";
             btnCena9A.FlatStyle = FlatStyle.Flat;
