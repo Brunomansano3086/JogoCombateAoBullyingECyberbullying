@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fontes\PressStart2P-Regular.ttf" />
     <None Remove="MusicaFundo.wav" />
     <None Remove="Sons\FinalBom.wav" />
     <None Remove="Sons\FinalRuim.wav" />
@@ -43,6 +44,10 @@
     <Content Include="Sons\OpcaoRuim.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fontes\PressStart2P-Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
