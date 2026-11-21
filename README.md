@@ -27,3 +27,7 @@ Para jogar o jogo, é necessário ter o .NET 10.0 instalado no seu computador. C
 8. Cole o caminho copiado e clique em "Avançar"
 9. Clique em "Concluir"
 10. Abra o atalho criado e o jogo irá iniciar
+
+## Botões
+Nas janelas que possuem mais de um botão, utilizar o cursor para escolher e clicar no botão desejado.
+Nas janelas que possuem somente um botão, como "Voltar" e "Próximo", pode-se utilizar tanto o cursor quanto as teclas "Enter" e "Espaço" para clicar no botão.
