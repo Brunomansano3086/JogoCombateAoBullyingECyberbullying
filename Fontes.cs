@@ -24,12 +24,11 @@ namespace JogoCombateAoBullyingECyberbullying
                     throw new Exception("Fonte não encontrada. Confira o nome do recurso.");
 
                 byte[] dados = new byte[stream.Length];
-                stream.Read(dados, 0, dados.Length);
+                stream.ReadExactly(dados, 0, dados.Length);
 
                 IntPtr ptr = Marshal.AllocCoTaskMem(dados.Length);
                 Marshal.Copy(dados, 0, ptr, dados.Length);
                 colecao.AddMemoryFont(ptr, dados.Length);
-                Marshal.FreeCoTaskMem(ptr);
             }
 
             carregada = true;

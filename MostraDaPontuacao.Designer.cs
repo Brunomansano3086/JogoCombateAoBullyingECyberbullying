@@ -49,9 +49,9 @@
             lblPosturaAtiva.BackColor = Color.Transparent;
             lblPosturaAtiva.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblPosturaAtiva.ForeColor = Color.White;
-            lblPosturaAtiva.Location = new Point(497, 201);
+            lblPosturaAtiva.Location = new Point(514, 212);
             lblPosturaAtiva.Name = "lblPosturaAtiva";
-            lblPosturaAtiva.Size = new Size(316, 46);
+            lblPosturaAtiva.Size = new Size(277, 35);
             lblPosturaAtiva.TabIndex = 1;
             lblPosturaAtiva.Text = "Post. Ativa";
             lblPosturaAtiva.TextAlign = ContentAlignment.MiddleCenter;
@@ -61,9 +61,9 @@
             lblOmissao.BackColor = Color.Transparent;
             lblOmissao.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblOmissao.ForeColor = Color.White;
-            lblOmissao.Location = new Point(497, 266);
+            lblOmissao.Location = new Point(514, 277);
             lblOmissao.Name = "lblOmissao";
-            lblOmissao.Size = new Size(316, 50);
+            lblOmissao.Size = new Size(277, 35);
             lblOmissao.TabIndex = 2;
             lblOmissao.Text = "Omissão";
             lblOmissao.TextAlign = ContentAlignment.MiddleCenter;
@@ -73,9 +73,9 @@
             lblCumplicidade.BackColor = Color.Transparent;
             lblCumplicidade.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblCumplicidade.ForeColor = Color.White;
-            lblCumplicidade.Location = new Point(497, 332);
+            lblCumplicidade.Location = new Point(514, 344);
             lblCumplicidade.Name = "lblCumplicidade";
-            lblCumplicidade.Size = new Size(316, 51);
+            lblCumplicidade.Size = new Size(277, 35);
             lblCumplicidade.TabIndex = 3;
             lblCumplicidade.Text = "Cumplicidade";
             lblCumplicidade.TextAlign = ContentAlignment.MiddleCenter;
