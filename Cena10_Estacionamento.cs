@@ -37,6 +37,12 @@ namespace JogoCombateAoBullyingECyberbullying
             btnCena10C.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 255, 255, 255);
             btnCena10C.FlatAppearance.MouseDownBackColor = Color.FromArgb(60, 255, 255, 255);
         }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter || keyData == Keys.Space)
+                return true; // ignora a tecla
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
         private void btnCena10A_Click(object sender, EventArgs e)
         {
