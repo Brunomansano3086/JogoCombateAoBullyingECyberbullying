@@ -59,7 +59,7 @@ namespace JogoCombateAoBullyingECyberbullying
         private void TelaInicial_Load(object sender, EventArgs e)
         {
         }
-        private void TelaInicial_VisibleChanged(object sender, EventArgs e) // vai fazer com que a música de fundo toque quando a tela inicial estiver visível e parar quando não estiver
+        private void TelaInicial_VisibleChanged(object? sender, EventArgs e) // vai fazer com que a música de fundo toque quando a tela inicial estiver visível e parar quando não estiver
         {
             if (this.Visible)
             {
