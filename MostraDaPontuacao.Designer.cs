@@ -47,7 +47,7 @@
             // lblPosturaAtiva
             // 
             lblPosturaAtiva.BackColor = Color.Transparent;
-            lblPosturaAtiva.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblPosturaAtiva.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblPosturaAtiva.ForeColor = Color.White;
             lblPosturaAtiva.Location = new Point(514, 212);
             lblPosturaAtiva.Name = "lblPosturaAtiva";
@@ -55,11 +55,12 @@
             lblPosturaAtiva.TabIndex = 1;
             lblPosturaAtiva.Text = "Post. Ativa";
             lblPosturaAtiva.TextAlign = ContentAlignment.MiddleCenter;
+            lblPosturaAtiva.UseCompatibleTextRendering = true;
             // 
             // lblOmissao
             // 
             lblOmissao.BackColor = Color.Transparent;
-            lblOmissao.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblOmissao.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblOmissao.ForeColor = Color.White;
             lblOmissao.Location = new Point(514, 277);
             lblOmissao.Name = "lblOmissao";
@@ -67,11 +68,12 @@
             lblOmissao.TabIndex = 2;
             lblOmissao.Text = "Omissão";
             lblOmissao.TextAlign = ContentAlignment.MiddleCenter;
+            lblOmissao.UseCompatibleTextRendering = true;
             // 
             // lblCumplicidade
             // 
             lblCumplicidade.BackColor = Color.Transparent;
-            lblCumplicidade.Font = new Font("Press Start 2P", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCumplicidade.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblCumplicidade.ForeColor = Color.White;
             lblCumplicidade.Location = new Point(514, 344);
             lblCumplicidade.Name = "lblCumplicidade";
@@ -79,6 +81,7 @@
             lblCumplicidade.TabIndex = 3;
             lblCumplicidade.Text = "Cumplicidade";
             lblCumplicidade.TextAlign = ContentAlignment.MiddleCenter;
+            lblCumplicidade.UseCompatibleTextRendering = true;
             // 
             // MostraDaPontuacao
             // 

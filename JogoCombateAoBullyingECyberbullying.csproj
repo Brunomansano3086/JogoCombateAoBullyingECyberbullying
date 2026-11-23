@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fontes\OFL.txt" />
     <None Remove="Fontes\PressStart2P-Regular.ttf" />
     <None Remove="MusicaFundo.wav" />
     <None Remove="Sons\FinalBom.wav" />
@@ -20,6 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Fontes\OFL.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="Sons\FinalBom.wav">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -47,7 +51,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Fontes\PressStart2P-Regular.ttf" />
+    <EmbeddedResource Include="Fontes\PressStart2P-Regular.ttf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
