@@ -143,16 +143,6 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BotaoAvancar {
-            get {
-                object obj = ResourceManager.GetObject("BotaoAvancar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap CenaPreJogo {
             get {
                 object obj = ResourceManager.GetObject("CenaPreJogo", resourceCulture);
@@ -236,16 +226,6 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Corredor_opção_C_Avançar {
             get {
                 object obj = ResourceManager.GetObject("Corredor opção C Avançar", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Créditos {
-            get {
-                object obj = ResourceManager.GetObject("Créditos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,16 +393,6 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Jogo_Bullying {
-            get {
-                object obj = ResourceManager.GetObject("Jogo Bullying", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Laboratório_3_opções {
             get {
                 object obj = ResourceManager.GetObject("Laboratório 3 opções", resourceCulture);
@@ -516,16 +486,6 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         internal static System.Drawing.Bitmap Tela_de_Créditos_Unisagrado {
             get {
                 object obj = ResourceManager.GetObject("Tela de Créditos Unisagrado", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Tela_Final_Bom {
-            get {
-                object obj = ResourceManager.GetObject("Tela Final Bom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
