@@ -493,6 +493,16 @@ namespace JogoCombateAoBullyingECyberbullying.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Tela_de_Créditos_Unisagrado_com_as_duas_logos {
+            get {
+                object obj = ResourceManager.GetObject("Tela de Créditos Unisagrado com as duas logos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tela_Pontuação {
             get {
                 object obj = ResourceManager.GetObject("Tela Pontuação", resourceCulture);
